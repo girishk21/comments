@@ -1,0 +1,11 @@
+version: "3.1"
+
+services:
+  node:
+    image: girishk21/comments_backend:13062021
+    ports:
+      - "3000:3000"
+    healthcheck:
+      disable: true
+volumes:
+  notused:
